@@ -1,0 +1,280 @@
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+#main {
+  padding: 30px 50px;
+  box-sizing: border-box;
+  background-size: 1330px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: calibri;
+
+  box-sizing: border-box;
+  padding: 10px 50px;
+  background-color: #f4f7ff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+  z-index: 1;
+}
+.nav-logo {
+  display: flex;
+}
+.menu {
+  display: flex;
+}
+.menu a {
+  padding: 10px 15px;
+  color: #6c707c;
+  font-size: 12px;
+}
+
+.active a,
+.menu a:hover {
+  background-color: #292929;
+  color: #fff !important;
+  font-weight: bold;
+  transition: all ease 0.4s;
+}
+.name {
+  font-family: calibri;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.name > img {
+  border: 5px solid #ddd;
+  border-radius: 50%;
+  width: 200px;
+  margin-left: 7%;
+}
+.name > img:hover {
+  box-shadow: 5px 5px 30px rgb(0, 0, 0);
+}
+.name .details {
+  color: #f4f7ff;
+  font-size: 16px;
+}
+.name h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  margin: 0px;
+  letter-spacing: 3px;
+  color: #292929;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40%;
+  margin-top: 2%;
+}
+.social img {
+  margin: 6px 15px;
+  width: 40px;
+  height: 40px;
+}
+.social img:hover {
+  box-shadow: 5px 5px 30px white;
+  border-radius: 40%;
+  transition: all ease 0.1s;
+  width: 35px;
+  height: 35px;
+}
+
+.name-about {
+  background-color: #f4f7ff;
+  padding: 30px;
+  font-family: calibri;
+  margin-left: 10%;
+  margin-right: 15%;
+}
+.details {
+  color: #000000;
+  font-size: 16px;
+  padding: 5px;
+}
+.details1 {
+  color: #000000;
+  font-size: 16px;
+  padding: 5px;
+}
+.name-about h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  margin: 0px;
+  letter-spacing: 3px;
+  color: #292929;
+}
+
+#gallery {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: calibri;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 2% 20px 2%;
+}
+
+.p-headind {
+  font-family: calibri;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px 20px;
+  background-color: #292929;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+.p-headind:hover {
+  font-weight: bolder;
+  box-shadow: 2px 2px 20px white;
+}
+.p-box {
+  background-color: #1f1f1f;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.p-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.p-container {
+  width: 90%;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #f4f7ff;
+  padding: 20px;
+}
+
+.services {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #f4f7ff;
+  padding: 2%;
+}
+.service-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+}
+.service2 {
+  padding: 15px;
+  background-color: #c5c5c5;
+  color: black;
+  justify-items: stretch;
+  align-items: stretch;
+}
+.service1 {
+  padding: 15px;
+
+  background-color: #c5c5c5;
+  color: black;
+}
+
+.service3 {
+  padding: 15px;
+
+  background-color: #c5c5c5;
+  color: black;
+}
+.service4 {
+  padding: 15px;
+
+  background-color: #c5c5c5;
+  color: black;
+}
+.service1 > img,
+.service2 > img,
+.service3 > img,
+.service4 > img {
+  border-radius: 40%;
+  width: 100px;
+  height: 100px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.service1 > img:hover,
+.service2 > img:hover,
+.service3 > img:hover,
+.service4 > img:hover {
+  box-shadow: 3px 3px 20px #f4f7ff;
+}
+nav > img {
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+  width: 90px;
+  height: 80px;
+}
+nav > img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+footer {
+  padding: 20px;
+  margin: 60px;
+  margin-top: 20px;
+  background-color: #f4f7ff;
+  text-align: center;
+}
+.text-footer {
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: calibri;
+}
